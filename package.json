@@ -1,0 +1,42 @@
+{
+  "name": "stealth-headers",
+  "version": "1.0.0",
+  "description": "Generate realistic, statistical browser headers and fingerprint footprints to bypass anti-bot systems.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "utility",
+    "stealth-headers",
+    "stealth",
+    "headers",
+    "scraping",
+    "anti-bot",
+    "fingerprint"
+  ],
+  "author": "Antigravity Factory Manager",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.0",
+    "vitest": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeHalogen/stealth-headers.git"
+  },
+  "homepage": "https://github.com/MeHalogen/stealth-headers#readme"
+}
